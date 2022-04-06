@@ -1,14 +1,18 @@
 # test-lib
+
+[![.github/workflows/ci.yml](https://github.com/dmadunic/test-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/dmadunic/test-lib/actions/workflows/ci.yml)
+![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&style=flat)
+![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white&style=flat)
+
+
 Test Java library repository, used to test library publishing to maven repositories with github actions.
 
 Library is published in:
 - Google Artifact Regitry
 - Github package
 
-![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&style=flat)
-![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white&style=flat)
 
-** Current project version $LATEST_VERSION **
+**Current project version $LATEST_VERSION**
 
 ### Setup (First time)
 1. Clone the repository: `git clone git@github.com:dmadunic/test-lib.git`

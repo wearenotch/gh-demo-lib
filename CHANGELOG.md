@@ -4,7 +4,7 @@
 ### Changed
 - 
 
-## [0.6.0]
+## [0.7.0]
 ### Added
 - CHANGELOG.md with track of made changes
 

@@ -12,7 +12,7 @@ Library is published in:
 1. Clone the repository: `git clone git@github.com:dmadunic/test-lib.git`
 4. Build project with: ` ./gradlew clean build `
 
-### Release
+### Manual Release
 Make sure that file gradle.properties in the folder ${USER_HOME}/.gradle/ contains the following two variables defined:
 
 * github_username
@@ -22,4 +22,5 @@ Make sure that file gradle.properties in the folder ${USER_HOME}/.gradle/ contai
 2) `./gradlew release`
 
 And simply follow the instructions on the console
+
 

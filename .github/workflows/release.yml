@@ -12,9 +12,9 @@
 #=============================================================================
 name: Publish package to the GitHub packages
 on:
-  workflow_dispatch:
-  #release:
-  #  types: [created]
+  #workflow_dispatch:
+  release:
+    types: [created]
 env:
   github_password: ${{ secrets.GITHUB_TOKEN }}
 jobs:

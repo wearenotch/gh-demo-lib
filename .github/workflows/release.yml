@@ -12,10 +12,10 @@
 #=============================================================================
 name: Publish package to the GitHub packages
 on:
-  release:
-    types: [created]
+  workflow_dispatch:
+  #release:
+  #  types: [created]
 env:
-  github_username: ${{ env.GITHUB_ACTOR }}
   github_password: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   publish:
@@ -32,4 +32,4 @@ jobs:
         uses: gradle/wrapper-validation-action@v1.0.4
       - name: Publish package
         run: |-
-          ./gradlew release -Prelease.useAutomaticVersion=true
+          ./gradlew release -Prelease.useAutomaticVersion=true -Pgithub_username=${{ env.GITHUB_ACTOR }}

@@ -4,6 +4,10 @@
 ### Changed
 - 
 
+## [0.8.0]
+### Added
+- Added ci.yml github action script that runs on each commit/merge/pull request on/to master
+
 ## [0.7.0]
 ### Added
 - CHANGELOG.md with track of made changes

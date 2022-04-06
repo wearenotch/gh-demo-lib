@@ -26,6 +26,7 @@ Make sure that file gradle.properties in the folder ${USER_HOME}/.gradle/ contai
 And simply follow the instructions on the console
 
 ### Github Actions release
+
 New version of library jar  is released with the "Release next version" github action script.
 Once everything is pushed simply run this workflow script.
 It will perform the following:

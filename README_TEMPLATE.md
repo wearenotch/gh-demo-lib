@@ -11,7 +11,6 @@ Library is published in:
 - Google Artifact Regitry
 - Github package
 
-
 **Current project version $LATEST_VERSION**
 
 ### Setup (First time)

@@ -7,6 +7,7 @@
 ## [0.8.0]
 ### Added
 - Added ci.yml github action script that runs on each commit/merge/pull request on/to master
+- Added badge with status of "CI Build" workflow
 
 ## [0.7.0]
 ### Added

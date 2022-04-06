@@ -11,7 +11,7 @@ Library is published in:
 - Google Artifact Regitry
 - Github package
 
-**Current project version 0.0.8**
+**Current project version 0.0.9**
 
 ### Setup (First time)
 1. Clone the repository: `git clone git@github.com:dmadunic/test-lib.git`

@@ -1,5 +1,10 @@
 package com.ag04.utils;
 
+/**
+ * Simple POJO.
+ * 
+ * @author dmadunic
+ */
 public class DummyDTO {
     private Long id;
     private String code;

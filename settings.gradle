@@ -1,0 +1,8 @@
+pluginManagement.repositories {
+    maven {
+        url 'https://search.maven.org/'
+    }
+    gradlePluginPortal()
+}
+
+rootProject.name = 'test-lib'

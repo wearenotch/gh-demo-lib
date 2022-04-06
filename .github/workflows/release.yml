@@ -1,0 +1,35 @@
+#==============================================================================
+# Automatic CI/CD github pipline script, that is triggered by relase 
+#  This script will build and publish jar to:
+# - Github packages 
+# - AG04 Google Artifact Repository
+#
+# This script to work requires the following secrets to be defined:
+# - GAR_SA_KEY : 
+# - GITHUB_TOKEN : 
+#
+# (c) Agency04 / Domagoj Madunić
+#=============================================================================
+name: Publish package to the GitHub packages
+on:
+  release:
+    types: [created]
+env:
+  github_username: ${{ env.GITHUB_ACTOR }}
+  github_password: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  publish:
+    name: Build and Publish to maven repositories
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v1.0.4
+      - name: Publish package
+        run: |-
+          ./gradlew release -Prelease.useAutomaticVersion=true

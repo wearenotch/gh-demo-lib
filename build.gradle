@@ -24,9 +24,10 @@ publishing {
     }
     
     repositories {
+        /*
         maven {
             url "artifactregistry://europe-west3-maven.pkg.dev/ag04-inventory/maven-repository"
-        }
+        }*/
         if (project.hasProperty('github_username') && project.hasProperty('github_password')) {
             maven {
                 name = "GitHubPackages"

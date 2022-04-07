@@ -37,7 +37,9 @@ And regitser github package as maven repository, as is for example show in the s
 
 ```groovy
 def props = new Properties()
-file(".env").withInputStream { props.load(it) 
+if (file(".env").exists()) {
+    file(".env").withInputStream { props.load(it) }
+} 
 
 repositories {
     mavenCentral()

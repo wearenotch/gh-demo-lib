@@ -2,10 +2,6 @@
 # Manual Release github action script.
 #  This script will build and publish jar to:
 # - Github packages 
-# - AG04 Google Artifact Repository (NOT YET IMPLEMENTED)
-#
-# This script to work requires the following secrets to be defined:
-# - GAR_SA_KEY : 
 #
 #
 # (c) Agency04 2022 / Domagoj Madunić
@@ -39,7 +35,7 @@ jobs:
         uses: oleksiyrudenko/gha-git-credentials@v2
         with:
           name: 'ghaction'
-          email: 'ghaction@github.io'
+          email: 'ghaction@ag04.io'
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Set up Java

@@ -5,4 +5,4 @@ pluginManagement.repositories {
     gradlePluginPortal()
 }
 
-rootProject.name = 'test-lib'
+rootProject.name = 'gh-demo-lib'

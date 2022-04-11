@@ -3,6 +3,7 @@
 ## [0.1.1]
 ### Changed
 - Upgraded mindsers/changelog-reader-action to 2.0.0
+- Fixed ci status badge
 ### Added
 - 
 

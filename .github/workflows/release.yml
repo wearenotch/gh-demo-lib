@@ -20,6 +20,7 @@ jobs:
   publish:
     name: Release next version
     runs-on: ubuntu-latest
+    #runs-on: [self-hosted, charlie]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

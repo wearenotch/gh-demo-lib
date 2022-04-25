@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2]
+### Changed
+- ADD CHANGES HERE
+### Added
+- ADD CHANGES HERE
+
 ## [0.1.1]
 ### Changed
 - Upgraded mindsers/changelog-reader-action to 2.0.0

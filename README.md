@@ -7,13 +7,13 @@
 
 Demo Java library repository, used to test library publishing to maven repository on GitHUb using GitHub actions ci/cd pipelines.
 
-**Current project version 0.1.0**
+**Current project version 0.1.1**
 ## Usage
 To use this jar in your project add the following to the dependencies section:
 
 ```groovy
 dependencies {
-    implementation "com.ag04.utils:gh-demo-lib:0.1.0"
+    implementation "com.ag04.utils:gh-demo-lib:0.1.1"
     ...
 }
 ```
@@ -23,7 +23,7 @@ dependencies {
 <dependency>
   <groupId>com.ag04.utils</groupId>
   <artifactId>gh-demo-lib</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 </dependency>
 ```
 (pom.xml)
